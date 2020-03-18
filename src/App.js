@@ -16,6 +16,7 @@ const App = ( props ) => {
   return (
     <Container id="container">
       <h1>Featuring: { state.car.name }</h1>
+      <p className="align-center">GitHub: <a href="https://master.dowaum6f8w0jr.amplifyapp.com/" target="_blank" rel="noopener noreferrer">https://master.dowaum6f8w0jr.amplifyapp.com/</a></p>
       <Row>
         <Col sm="6">
           <Card body>
