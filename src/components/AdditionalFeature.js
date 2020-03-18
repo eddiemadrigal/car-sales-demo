@@ -10,7 +10,7 @@ const AdditionalFeature = props => {
         className="button add-button"
         onClick = { () => props.buyFeature(props.feature) }
         >Add</Button>
-      {props.feature.name} (+{props.feature.price})
+      {props.feature.name} <i>only ${props.feature.price.toLocaleString()} </i>
     </li>
   );
 };

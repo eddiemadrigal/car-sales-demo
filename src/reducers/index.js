@@ -12,7 +12,10 @@ const initialState = {
         { id: 1, name: "V-6 engine", price: 1500 },
         { id: 2, name: "Racing detail package", price: 1500 },
         { id: 3, name: "Premium sound system", price: 500 },
-        { id: 4, name: "Rear spoiler", price: 250 }
+        { id: 4, name: "Rear spoiler", price: 250 },
+        { id: 5, name: "V-8 Turbo", price: 3700}, 
+        { id: 6, name: "Hand Sanitizer for Life", price: 0},
+        { id: 7, name: "Gold Floor Mats", price: 1500}
     ]
 };
 

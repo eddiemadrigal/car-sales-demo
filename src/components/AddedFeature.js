@@ -11,7 +11,7 @@ const AddedFeature = props => {
         >X</Button>
       {props.feature.name}
     </li>
-  );
+  ); 
 };
 
 export default AddedFeature;

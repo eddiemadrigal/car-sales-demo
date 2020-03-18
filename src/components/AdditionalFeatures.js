@@ -7,17 +7,17 @@ const AdditionalFeatures = props => {
     <div className="content">
       <CardTitle>Additional Features</CardTitle>
       { props.store.length ? (
-        <ol type="1">
+        <ol>
           {props.store.map( item => (
             <AdditionalFeature
               key = { item.id }
               feature = { item }
               buyFeature = { props.buyFeature }
-            />
+            /> 
           ))}
         </ol>
       ) : (
-        <p>Nice looking car!</p>
+        <p>Sexy looking car!</p>
       ) }
     </div>
   );

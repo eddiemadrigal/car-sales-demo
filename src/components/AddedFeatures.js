@@ -16,7 +16,7 @@ const AddedFeatures = props => {
               removeFeature = { removeFeature } 
             />
           ))}
-        </ol>
+        </ol> 
       ) : (
         <p className="align-center">Add additional bling to your ride ...</p>
       )}
