@@ -6,7 +6,7 @@ const AddedFeature = props => {
     <li className="li-style">
       <Button 
         color="danger"
-        className="button"
+        className="button add-button"
         onClick = { () => props.removeFeature(props.feature) }
         >X</Button>
       {props.feature.name}

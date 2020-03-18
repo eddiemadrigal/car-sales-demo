@@ -15,3 +15,11 @@
 h1 {
     text-align: center;
 }
+
+.align-center {
+    text-align: center;
+}
+
+.car-name {
+    font-size: 2rem;
+}
