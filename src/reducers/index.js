@@ -21,7 +21,7 @@ const reducer = ( state = initialState, action ) => {
     switch (action.type) {
         case BUY_FEATURE:
             if (state.car.features.find(feature => feature.id === action.payload.id)) {
-                return state
+                return state;
             } else {
                 return {
                     ...state,
@@ -30,8 +30,9 @@ const reducer = ( state = initialState, action ) => {
                         price: state.car.price + action.payload.price,
                         features: [...state.car.features, action.payload]
                     }
-                }
-            }
+                };
+            };
+
         case REMOVE_FEATURE:
             return {
                 ...state,
@@ -42,7 +43,9 @@ const reducer = ( state = initialState, action ) => {
                         feature.id !== action.payload.id
                     ))
                 }
-            }
+            };
+        default:
+            return state;
     }
 }
 

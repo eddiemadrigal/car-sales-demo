@@ -1,10 +1,15 @@
 import React from 'react';
+import { Button } from 'reactstrap';
+import '../App.css';
 
 const AdditionalFeature = props => {
   return (
-    <li>
-      {/* Add an onClick that will let you add a feature to your car */}
-      <button className="button">Add</button>
+    <li className="li-style">
+      <Button
+        color = "success"
+        className="button add-button"
+        onClick = { () => props.buyFeature(props.feature) }
+        >Add</Button>
       {props.feature.name} (+{props.feature.price})
     </li>
   );
